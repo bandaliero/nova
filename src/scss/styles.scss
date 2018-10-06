@@ -8,8 +8,25 @@ html {
 html, body {
   margin: 0;
   padding: 0;
-  display: flex;
+  //display: flex;
 }
+
+nav {
+  @include first;
+  ul {
+    li {
+      @include li-style;
+      margin: 20px 10px;
+      a {
+        text-decoration: none;
+        color: red;
+        padding: 10px;
+      }
+    }
+  }
+}
+
+
 
 .one {
   @include block;

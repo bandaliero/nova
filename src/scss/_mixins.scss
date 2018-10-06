@@ -11,3 +11,12 @@
   width: 200px;
   height: 200px;
 }
+@mixin first {
+  width: 200px;
+  height: 300px;
+  background-color: yellowgreen;
+}
+@mixin li-style {
+  list-style-type: none;
+  color: red;
+}

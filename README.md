@@ -17,3 +17,14 @@ npm i
 ```
 npm start
 ```
+
+
+WS:
+
+```
+Select line at caret (Ctrl + L)
+Add selection for next occurence (Ctrl + D)
+Duplicate line or selection (Ctrl + Shift + D)
+Move line up (Alt + Shift + Arrow Up)
+Move line down (Alt + Shift + Arrow Down)
+```
