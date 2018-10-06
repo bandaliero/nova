@@ -1,0 +1,13 @@
+.idea/
+dist/
+.DS_Store
+
+# Logs
+logs
+*.log
+
+# NPM
+.npmrc
+
+# Dependency directories
+node_modules/

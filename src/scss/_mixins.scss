@@ -1,0 +1,13 @@
+@mixin breakpoint($size) {
+  @media only screen and (min-width: $size) {
+    @content
+  }
+}
+
+@mixin block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 200px;
+}

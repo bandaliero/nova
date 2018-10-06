@@ -1,0 +1,26 @@
+{
+  "name": "nova",
+  "version": "1.0.0",
+  "description": "Nova website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "sass src/scss/styles.scss src/css/styles.css",
+    "watch": "sass --watch src/scss/styles.scss:src/css/styles.css",
+    "start": "npm run compile && npm run watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bandaliero/nova.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bandaliero/nova/issues"
+  },
+  "homepage": "https://github.com/bandaliero/nova#readme",
+  "devDependencies": {
+    "sass": "^1.14.1"
+  }
+}

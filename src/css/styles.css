@@ -1,0 +1,31 @@
+html {
+  min-height: 100%;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.one {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 200px;
+}
+@media only screen and (min-width: 768px) {
+  .one {
+    width: 350px;
+    background-color: rebeccapurple;
+  }
+}
+@media only screen and (min-width: 1366px) {
+  .one {
+    width: 500px;
+    background-color: lightcoral;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

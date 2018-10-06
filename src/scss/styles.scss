@@ -1,0 +1,26 @@
+@import "mixins";
+@import "variables";
+
+html {
+  min-height: 100%;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.one {
+  @include block;
+
+  @include breakpoint($tablet) {
+    width: 350px;
+    background-color: rebeccapurple;
+  }
+
+  @include breakpoint($desktop) {
+    width: 500px;
+    background-color: lightcoral;
+  }
+}
